@@ -2,16 +2,15 @@ export {};
 
 class Me {
   static isProgrammer: boolean = true;
-  static firstName: string = 'Atsushi';
-  static lastName: string = 'Ishida';
+  static firstName: string = "Yudai";
+  static age: number = 24;
 
   static work() {
-    //     "Hey, guys! This is Atsushi! Are you interested in TypeScript? Let's dive into TypeScript!";
+    // "Hey, guys! This is Yudai! Are you interested in TypeScript? Let's dive into TypeScript!"
     return `Hey, guys! This is ${this.firstName}! Are you interested in TypeScript? Let's dive into TypeScript!`;
   }
 }
 
-// let me = new Me();
-// console.log(me.isProgrammer);
+// アクセスできない
+// console.log(isProgrammer);
 console.log(Me.isProgrammer);
-console.log(Me.work());
